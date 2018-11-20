@@ -14,6 +14,7 @@
 </head>
 
 <body>
+<div id="particles-js"></div>
 <!-- Strat navigation bar-->
 <nav class="navbar is-link is-fixed-top">
     <div class="navbar-brand">
@@ -261,12 +262,14 @@
         </div>
     </section>
 
-    div class="card-content">
-    <div class="media">
-        <div class="media-center">
-            <img src="asset/ima/me.jpg"
-            class="author-image" alt="Placeholder image">
-
+    <div class="card-content">
+        <div class="media">
+            <div class="media-center">
+                <img src="asset/ima/me.jpg"
+                     class="author-image" alt="Placeholder image">
+            </div>
+        </div>
+    </div>
     <!-- Contact -->
     <section class="section" id="contact">
         <div class="container">
@@ -280,7 +283,8 @@
                         <div class="field">
                             <label class="label">Your name</label>
                             <div class="control has-icons-left">
-                                <input class="input" type="text" id="name" name="nametxt" placeholder="Text input here">
+                                <input class="input" type="text" id="name" name="nametxt"
+                                       placeholder="Text input here">
                                 <span class="icon"><i class="fa fa-user"></i></span>
 
                             </div>
@@ -289,7 +293,9 @@
                         <div class="field">
                             <label class="label">Your email</label>
                             <div class="control has-icons-left">
-                                <input class="input" type="email" id="email" name="emailtxt" placeholder="Email input" value="">
+                                <input class="input" type="email" id="email" name="emailtxt"
+                                       placeholder="Email input"
+                                       value="">
                                 <span class="icon"><i class="fa fa-envelope"></i></span>
 
                             </div>
@@ -299,7 +305,8 @@
                             <div class="control">
                                 <label class="label">Your message</label>
                                 <div class="control">
-                                    <textarea class="textarea" id="mens" name="menstxt" placeholder="e.g. Hello..."></textarea>
+                                    <textarea class="textarea" id="mens" name="menstxt"
+                                              placeholder="e.g. Hello..."></textarea>
 
                                 </div>
                             </div>
@@ -309,7 +316,7 @@
                             <div class="control">
                                 <button class="button is-link is-large is-outlined">
                                     <span>Submit</span></button>
-                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -321,11 +328,16 @@
 
     </section>
 
+
 </selection>
 
 
 <!-- javaScript -->
 <script async type="text/javascript" src="asset/js/bulma.js"></script>
 <script async type="text/javascript" src="asset/js/email.js"></script>
+<script async type="text/javascript" src="asset/js/particles.js"></script>
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
 </body>
 </html>
