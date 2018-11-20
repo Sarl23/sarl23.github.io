@@ -1,3 +1,9 @@
+/* particlesJS('dom-id', params);
+/* @dom-id : set the html tag id [string, optional, default value : particles-js]
+/* @params: set the params [object, optional, default values : check particles.js] */
+
+/* config dom id (optional) + config particles params */
+
 particlesJS("particles-js", {
     particles: {
         number: { value: 28, density: { enable: true, value_area: 390 } },
@@ -53,6 +59,7 @@ particlesJS("particles-js", {
     },
     retina_detect: true
 });
+
 var count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
