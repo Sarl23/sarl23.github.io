@@ -1,4 +1,9 @@
+alert("sera");
+function $(document) {
+    $('#btnSummit').click(function () {
+        alert("Envio");
+         var error ="";
+          //validar el Nombre
+    });
 
-let nameInp = document.getElementById(name);
-let mailInp = document.getElementById(email);
-let menslInp = document.getElementById(mens);
+}

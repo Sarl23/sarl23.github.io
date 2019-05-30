@@ -4,7 +4,7 @@
 
 /* config dom id (optional) + config particles params */
 
-particlesJS("particles-js", {
+particlesJS("particles-js",{
     particles: {
         number: { value: 28, density: { enable: true, value_area: 390 } },
         color: { value: "#a5aeb7" },
