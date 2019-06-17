@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55dc0c99-bf3e-4b6f-852f-179aa99c3772" name="Default Changelist" comment="Update Contact">
+    <list default="true" id="55dc0c99-bf3e-4b6f-852f-179aa99c3772" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/email.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="296" column="59" selection-start-line="296" selection-start-column="59" selection-end-line="296" selection-end-column="59" />
+            <state relative-caret-position="140">
+              <caret line="167" column="54" lean-forward="true" selection-start-line="167" selection-start-column="54" selection-end-line="167" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -81,7 +80,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
@@ -201,7 +200,7 @@
       <workItem from="1556384781425" duration="769000" />
       <workItem from="1556385788510" duration="84000" />
       <workItem from="1556402419627" duration="640000" />
-      <workItem from="1560781152295" duration="4008000" />
+      <workItem from="1560781152295" duration="5868000" />
     </task>
     <task id="LOCAL-00001" summary="Update particles">
       <created>1560781608808</created>
@@ -224,11 +223,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560783252666</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update Contact">
+      <created>1560785187114</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560785187114</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes contact">
+      <created>1560785929709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560785929709</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69898000" />
+    <option name="totallyTimeSpent" value="71758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,7 +257,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32928678" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19717261" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.40212443" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5014881" side_tool="true" weight="0.32850242" />
@@ -261,6 +274,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" weight="0.32928678" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.40212443" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5014881" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.4985119" weight="0.32850242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -271,7 +303,8 @@
     <MESSAGE value="Update JS" />
     <MESSAGE value="Particles JS" />
     <MESSAGE value="Update Contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Contact" />
+    <MESSAGE value="Changes contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes contact" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asset/ima/logoPrueba.png" />
@@ -319,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="296" column="59" selection-start-line="296" selection-start-column="59" selection-end-line="296" selection-end-column="59" />
+        <state relative-caret-position="140">
+          <caret line="167" column="54" lean-forward="true" selection-start-line="167" selection-start-column="54" selection-end-line="167" selection-end-column="54" />
         </state>
       </provider>
     </entry>
