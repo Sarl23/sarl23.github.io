@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55dc0c99-bf3e-4b6f-852f-179aa99c3772" name="Default Changelist" comment="">
+    <list default="true" id="55dc0c99-bf3e-4b6f-852f-179aa99c3772" name="Default Changelist" comment="Update About">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/page_web_sarl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/page_web_sarl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/ima/me.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,40 +19,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="page_web_sarl" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="167" column="54" lean-forward="true" selection-start-line="167" selection-start-column="54" selection-end-line="167" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/js/particles.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/js/particles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,27 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/asset/css/style.css" />
-        <option value="$PROJECT_DIR$/asset/css/personStyle.css" />
-        <option value="$PROJECT_DIR$/asset/js/bulma.js" />
-        <option value="$PROJECT_DIR$/asset/js/particlesEdit.js" />
-        <option value="$PROJECT_DIR$/asset/css/Style.css" />
-        <option value="$PROJECT_DIR$/asset/js/email.js" />
-        <option value="$PROJECT_DIR$/asset/js/particles.min.js" />
-        <option value="$PROJECT_DIR$/asset/js/particles.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
-  </component>
+  <component name="ProjectId" id="1Tc5cRkuKwmboSaCboXYsoU1u50" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -99,54 +48,11 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="page_web_sarl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="page_web_sarl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="page_web_sarl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="page_web_sarl" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="page_web_sarl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="page_web_sarl" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="page_web_sarl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="page_web_sarl" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="page_web_sarl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="page_web_sarl" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="particles.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../page_web_sarl_v2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -154,12 +60,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WebStorm_Project\page_web_sarl\asset\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WebStorm_Project\page_web_sarl\asset" />
       <recent name="D:\WebStorm_Project\page_web_sarl\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStorm_Project\page_web_sarl\asset\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,7 +106,18 @@
       <workItem from="1556384781425" duration="769000" />
       <workItem from="1556385788510" duration="84000" />
       <workItem from="1556402419627" duration="640000" />
-      <workItem from="1560781152295" duration="5868000" />
+      <workItem from="1560781152295" duration="6798000" />
+      <workItem from="1560911413603" duration="128000" />
+      <workItem from="1573746623108" duration="855000" />
+      <workItem from="1573950868447" duration="66000" />
+      <workItem from="1573951048111" duration="13561000" />
+      <workItem from="1574038600322" duration="986000" />
+      <workItem from="1574039681774" duration="599000" />
+      <workItem from="1574087385346" duration="1078000" />
+      <workItem from="1574092778079" duration="2091000" />
+      <workItem from="1574110156831" duration="1657000" />
+      <workItem from="1574364905610" duration="205000" />
+      <workItem from="1575168088848" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="Update particles">
       <created>1560781608808</created>
@@ -237,11 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1560785929709</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update About">
+      <created>1560787210625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560787210625</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,50 +173,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" weight="0.32928678" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.40212443" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5014881" side_tool="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.4985119" weight="0.32850242" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" weight="0.32928678" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.40212443" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5014881" side_tool="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.4985119" weight="0.32850242" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update particles" />
@@ -304,59 +196,8 @@
     <MESSAGE value="Particles JS" />
     <MESSAGE value="Update Contact" />
     <MESSAGE value="Changes contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes contact" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/asset/ima/logoPrueba.png" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc" />
-    <entry file="file://$PROJECT_DIR$/asset/ima/me.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/ima/logoBeta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/js/particlesEdit.js" />
-    <entry file="file://$PROJECT_DIR$/asset/js/bulma.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/css/Style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/js/particles.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/js/particles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/js/email.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="167" column="54" lean-forward="true" selection-start-line="167" selection-start-column="54" selection-end-line="167" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="Update About" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update About" />
   </component>
   <component name="masterDetails">
     <states>

@@ -1,310 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>@sarl23 | Sergio Rojas</title>
-    <link rel="icon" type="ima/png" sizes="32x32" href="asset/ima/logoBeta.png">
-    <!-- BULMA version 0.7.1-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="asset/css/Style.css">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>@sarl23 | Sergio Rojas </title>
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./asset/css/Style.css"/>
+    <script
+            src="https://kit.fontawesome.com/2828f7885a.js"
+            integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+            crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="./asset/ima/logoBeta.png"/>
 </head>
 
 <body>
-<div id="particles-js"></div>
-<!-- Strat navigation bar-->
-<nav class="navbar is-link is-fixed-top">
-    <div class="navbar-brand">
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-end">
-            <a class="navbar-item" href="#about">
-          <span class="icon">
-            <i class="fa fa-info"></i>
-          </span>
-                <span>About</span>
-            </a>
-            <a class="navbar-item" href="#services">
-          <span class="icon">
-            <i class="fa fa-bars"></i>
-          </span>
-                <span>Services</span>
-            </a>
-            <a class="navbar-item" href="#contact">
-          <span class="icon">
-            <i class="fa fa-envelope"></i>
-          </span>
-                <span>Contact</span>
-            </a>
-        </div>
-    </div>
-</nav>
-<!-- end nav (men)-->
-
-<!-- Strat Header-->
-<section class="hero is-link is-fullheight is-fullheight-with-navbar">
-    <div class="hero-body">
-        <div class="container">Hello World! I am
-            <h1 class="title is-1">
-                Sergio Rojas
-            </h1>
-            <h2 class="subtitle is-3">
-                Student of Systems and Computer Engineering.
-            </h2>
-        </div>
-    </div>
-</section>
-
-<!-- About -->
-<selection class="section" id="about">
-    <!-- Title of subMenu-->
-    <div class="section-heading">
-        <h3 class="title is-2">About Me</h3>
-        <h4 class="subtitle is-5">"If something can be dreamed, it can be programmed."</h4>
-        <div class="container">
-            <p>Great that you'd like to know me, I am 20 years old and a Computing and Systems Engineering student
-                at Pedagogical and Technological University of Colombia.
-                I am a person who can make mistakes and thus learn from them to achieve personal success.
-                I like to be updated in computer science and technologies.
-            </p>
-            <p>
-                I'm currently looking for an opportunity to work and improve my skills, as well as participate in an organization and give back
-                to the community or society.
-            </p>
-        </div>
-    </div>
-    <div class="columns has-same-height is-gapless">
-        <div class="column">
-            <!-- Profile -->
-            <div class="card">
-                <div class="card-content">
-                    <h3 class="title is-4">Profile</h3>
-
-                    <div class="content">
-                        <table class="table-profile">
-                            <tr>
-                                <th colspan="1"></th>
-                                <th colspan="2"></th>
-                            </tr>
-                            <tr>
-                                <td>Email:</td>
-                                <td>sergioandresrojasleon@gmail.com</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <br>
-                    <div class="buttons has-addons is-centered">
-                        <a class="button is-link is-outlined " href="https://github.com/Sarl23" target="_blank">
-                            <span class="icon"><i class="fa fa-github"></i></span>
-                        </a>
-                        <a class="button is-link is-outlined " href="https://twitter.com/Sergio_Rojas05"
-                           target="_blank">
-                            <span class="icon"><i class="fa fa-twitter"></i></span>
-                        </a>
-                        <a class="button is-link is-outlined " href="https://www.instagram.com/sergio_rojas23/?hl=es-la"
-                           target="_blank">
-                            <span class="icon"><i class="fa fa-instagram"></i></span>
-                        </a>
-                        <a class="button is-link is-outlined " href="https://www.facebook.com/sergioandres.rojasleon"
-                           target="_blank">
-                            <span class="icon"><i class="fa fa-facebook"></i></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <!-- Profile picture -->
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://source.unsplash.com/random/1280x960">
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <!-- Skills -->
-            <div class="card">
-                <div class="card-content skills-content">
-                    <h3 class="title is-4">Skills</h3>
-                    <div class="content">
-
-                        <article class="media">
-                            <div class="media-content">
-                                <div class="content">
-                                    <p>
-                                        <strong>JavaScript</strong>
-                                        <br>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="media">
-                            <div class="media-content">
-                                <div class="content">
-                                    <p>
-                                        <strong>Java</strong>
-                                        <br>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="media">
-                            <div class="media-content">
-                                <div class="content">
-                                    <p>
-                                        <strong>Python</strong>
-                                        <br>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="media">
-                            <div class="media-content">
-                                <div class="content">
-                                    <p>
-                                        <strong>HTML5/CSS3</strong>
-                                        <br>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="media">
-                            <div class="media-content">
-                                <div class="content">
-                                    <p>
-                                        <strong>Kotlin</strong>
-                                        <br>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-
-
-                        <article class="media">
-                            <div class="media-content">
-                                <div class="content">
-                                    <p>
-                                        <strong>Mysql | MariaDB</strong>
-                                        <br>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</selection>
-
-
-<section class="section" id="services">
-    <div class="section-heading">
-        <h3 class="title is-2">Services</h3>
-    </div>
-    <div class="container">
-        <div class="columns">
-            <div class="column">
-                <div class="box">
-                    <div class="content ">
-                        <h4 class="title is-5 has-text-centered">Web Designer</h4>
-
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box">
-                    <div class="content">
-                        <h4 class="title is-5 has-text-centered">Database Administrator</h4>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns">
-            <div class="column">
-                <div class="box">
-                    <div class="content">
-                        <h4 class="title is-5 has-text-centered">Front End Web Development</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box">
-                    <div class="content">
-                        <h4 class="title is-5 has-text-centered">Android Development</h4>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="card-content">
-    <div class="media">
-        <div class="media-center">
-            <img src="asset/ima/me.jpg"
-                 class="author-image" alt="Placeholder image">
-        </div>
+<!--<div id="particles-js"></div>-->
+<!-- Begin Preloader -->
+<div class="preloader-wrapper">
+    <div class="preloader">
+        <img src="./asset/ima/Ball-1s-200px.gif" alt="404"/>
     </div>
 </div>
-<!-- Contact -->
+<!-- End Preloader-->
+<!-- Begin Scroll Up Button -->
+<form action="#home">
+    <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+    </button>
+</form>
+<!-- End Scroll Up Button -->
 
-
-<section class="section" id="contact">
-    <div class="container">
-        <div class="section-heading">
-            <h3 class="title is-2">Contact</h3>
-
+<!-- Begin Header -->
+<div class="header-wrapper" id="home">
+    <!-- Begin Hero -->
+    <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+            <!-- Begin Burger Menu -->
+            <div class="navbar-brand">
+                <div class="navbar-burger burger" data-target="mobile-nav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <!-- End Burger Menu -->
+            <div id="mobile-nav" class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a class="navbar-item" href="#home">
+                            Home
+                        </a>
+                    </div>
+                    <div class="navbar-item">
+                        <a class="navbar-item" href="#about-me">
+                            About Me
+                        </a>
+                    </div>
+                    <div class="navbar-item">
+                        <a class="navbar-item" href="#services">
+                            Services
+                        </a>
+                    </div>
+                    <div class="navbar-item">
+                        <a class="navbar-item" href="#skills">
+                            Skills
+                        </a>
+                    </div>
+                    <div class="navbar-item">
+                        <a class="navbar-item" href="#contact">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="card-content">
+            <div class="media">
+                <div class="media-center">
+                    <img src="asset/ima/me3_cuadrad.jpeg"
+                         class="author-image" alt="Placeholder image">
+                </div>
+            </div>
         </div>
-        <form name="contact" method="POST" data-netlify="true">
-            <p>
-                <label>Your Name: <input class="input"  name="name" type="text" placeholder="Your name here"></label>
-            </p>
-            <br>
-            <p>
-                <label>Your Email: <input class="input" name="email" type="email" placeholder="Your_email@gmail.com"></label>
-            </p>
-            <br>
-            <p>
-                <label>Message: <textarea class="textarea" name="menssage" placeholder="Your menssage here"></textarea></label>
-            </p>
-            <br>
-            <p>
-                <button class="button is-medium is-outlined is-primary">Send</button>
-            </p>
-        </form>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="subtitle">Hello World !, I'm</h1>
+                <h2 class="title">Sergio Rojas</h2>
+                <h1 class="subtitle profession">Student of Systems and Computer Engineering</h1>
+            </div>
+        </div>
+
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+            <div class="hero-foot--wrapper">
+                <div class="columns">
+                    <div class="column is-12 hero-menu-desktop has-text-centered">
+                        <ul>
+                            <li class="is-active">
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about-me">About Me</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#skills">Skills</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Hero Menu -->
+    </section>
+    <!-- End Hero -->
+</div>
+<!-- End Header -->
+
+<!-- Begin Main Content -->
+<div class="main-content">
+    <!-- Begin About Me Section -->
+    <div class="section-light about-me" id="about-me">
+        <div class="container">
+            <div class="column is-12 about-me">
+                <h1 class="title has-text-centered section-title">About Me</h1>
+            </div>
+            <div class="columns is-multiline">
+                <div
+                        class="column is-6 has-vertically-aligned-content"
+                        data-aos="fade-right"
+                >
+                    <p class="is-larger"><strong
+                    >"If something can be dreamed, it can be programmed."</strong
+                    >
+                    </p>
+                    <br/>
+                    <p>
+                        Great that you'd like to know me, I am 21 years old and a Computing and Systems Engineering
+                        student at Pedagogical and Technological University of Colombia. I am a person who can make
+                        mistakes and thus learn from them to achieve personal success. I like to be updated in computer
+                        science and technologies.
+                        I'm currently looking for an opportunity to work and improve my skills, as well as participate
+                        in an organization and give back to the community or society.
+                    </p>
+                    <br>
+                    <p>
+                        Aiming to get and share knowledge I have <strong>Cofounder - Coorganizer</strong> of
+                        <strong><a href="https://boyaconf.com/" target="_blank">@BoyaConf</a> </strong> an initiative in
+                        my region where we have created a software development community and support every person or
+                        student who has an interest in tech topics
+                    </p>
+                    <br/>
+                    <br>
+                    <div class="is-divider"></div>
+                    <div class="columns about-links">
+                        <div class="column">
+                            <p class="heading">
+                                <strong>Email Me</strong>
+                            </p>
+                            <p class="subheading">
+                                sergioandresrojasleon@gmail.com
+                            </p>
+                        </div>
+                        <div class="column">
+                            <div class="buttons has-addons is-centered">
+                                <a class="button is-dark is-outlined " href="https://github.com/Sarl23" target="_blank">
+                                    <span class="icon"><i class="fab fa-github"></i></span>
+                                </a>
+                                <a class="button is-dark is-outlined " href="https://twitter.com/Sergio_Rojas05"
+                                   target="_blank">
+                                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                                </a>
+                                <a class="button is-dark is-outlined "
+                                   href="https://www.instagram.com/sergio_rojas23/?hl=es-la"
+                                   target="_blank">
+                                    <span class="icon"><i class="fab fa-instagram"></i></span>
+                                </a>
+                                <a class="button is-dark is-outlined "
+                                   href="https://www.facebook.com/sergioandres.rojasleon"
+                                   target="_blank">
+                                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-6 right-image " data-aos="fade-left">
+                    <img
+                            class="is-rounded"
+                            src="./asset/ima/fond2.jpg"
+                            alt="@Boyaconf"
+                    />
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- End About Me Content -->
+    <!-- Begin Services Content -->
+    <div class="section-color services" id="services">
+        <div class="container">
+            <div class="columns is-multiline is-mobile">
+                <div
+                        class="column is-12 about-me"
+                        data-aos="fade-in"
+                        data-aos-easing="linear"
+                >
+                    <h1 class="title has-text-centered section-title">Services</h1>
+                    <br/>
+                </div>
+
+                <div class="column is-one-quarter">
+                    <div
+                            class="column has-text-centered"
+                            data-aos="fade-in"
+                            data-aos-easing="linear"
+                    >
+                        <i class="fas fa-paint-brush fa-3x"></i>
+                        <hr/>
+                        <h2 class="subtitle ">Web Designer</h2>
+
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div
+                            class="column has-text-centered"
+                            data-aos="fade-in"
+                            data-aos-easing="linear"
+                    >
+                        <i class="fas fa-database fa-3x"></i>
+                        <hr/>
+                        <h2 class="subtitle ">Database Administrator</h2>
+
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div
+                            class="column has-text-centered"
+                            data-aos="fade-in"
+                            data-aos-easing="linear"
+                    >
+                        <i class="far fa-window-restore fa-3x"></i>
+                        <hr/>
+                        <h2 class="subtitle ">Front End Web Development</h2>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div
+                            class="column has-text-centered"
+                            data-aos="fade-in"
+                            data-aos-easing="linear"
+                    >
+                        <i class="fas fa-mobile-alt fa-3x"></i>
+                        <hr/>
+                        <h2 class="subtitle ">Android Development</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services Content -->
+    <!-- Begin Skills Content -->
+    <div class="section-light skills" id="skills">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-12 about-me">
+                    <h1 class="title has-text-centered section-title">Skills</h1>
+                </div>
+                <br>
+                <br>
+                <div class="container">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="box">
+                                <div class="content" data-aos="fade-right">
+                                    <h4 class="title is-5 has-text-centered">Adobe Photoshop</h4>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="box">
+                                <div class="content" data-aos="fade-right">
+                                    <h4 class="title is-5 has-text-centered">Adobe Illustrator</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <div class="content" data-aos="fade-left">
+                                    <h4 class="title is-5 has-text-centered">HTML5/CSS3</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <div class="content" data-aos="fade-left">
+                                    <h4 class="title is-5 has-text-centered">MYSQL | MariaDB</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="column">
+                            <div class="box">
+                                <div class="content" data-aos="fade-right">
+                                    <h4 class="title is-5 has-text-centered">Visual Studio Codet</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <div class="content" data-aos="fade-right">
+                                    <h4 class="title is-5 has-text-centered">JavaScript</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <div class="content" data-aos="fade-left">
+                                    <h4 class="title is-5 has-text-centered">Python</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <div class="content" data-aos="fade-left">
+                                    <h4 class="title is-5 has-text-centered">Kotlin</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Skills Content -->
 
 
-</section>
+    <!-- End Work Content -->
+    <!-- Begin Contact Content -->
+    <div class="section-light contact" id="contact">
+        <div class="container">
+            <div
+                    class="columns is-multiline"
+                    data-aos="fade-in-up"
+                    data-aos-easing="linear"
+            >
+                <div class="column is-12 about-me">
+                    <h1 class="title has-text-centered section-title">
+                        Contact
+                    </h1>
+                </div>
+                <div class="column is-8 is-offset-2">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control has-icons-left">
+                                <input
+                                        class="input"
+                                        type="text"
+                                        placeholder="Your name here"
+                                        name="name"
+                                />
+                                <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left">
+                                <input
+                                        class="input"
+                                        type="email"
+                                        placeholder="Ex. email@ext.com"
+                                        name="email"
+                                />
+                                <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Message </label>
+                            <div class="control">
+                    <textarea
+                            class="textarea"
+                            placeholder=" 📝 Textarea"
+                            name="Message"
+                    ></textarea>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control ">
+                                <button class="button submit-button is-rounded is-outlined">
+                                    Send&nbsp;&nbsp;
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Content -->
+</div>
+<!-- End Main Content -->
 
+<!-- Begin Footer -->
+<div class="footer">
+    <p>
+        <strong class="white">Bulma</strong> by <a href="https://github.com/Sarl23">Sergio Rojas</a>.
+        The website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+</div>
+<!-- End Footer -->
 
-</selection>
-
-
-<!-- javaScript -->
-<script async type="text/javascript" src="asset/js/bulma.js"></script>
-<script async type="text/javascript" src="asset/js/particles.min.js"></script>
-<script async type="text/javascript" src="asset/js/particles.js"></script>
-
-
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./asset/js/app.js"></script>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        easing: "ease-out",
+        duration: 800,
+    });
+</script>
 </body>
 </html>
